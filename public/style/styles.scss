@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+#image1 {
+  background-image: url("/img/VallaHome.webp");
+  background-position: center top;
+  background-size: 100% auto;
+}
+
+li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  #navBarContainer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+#btnContact {
+  background-color: #85a64c;
+  color: #ffff;
+}
